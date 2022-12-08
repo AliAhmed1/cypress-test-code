@@ -1,0 +1,133 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2022-12-08T18:59:24.162Z",
+    "end": "2022-12-08T18:59:42.579Z",
+    "duration": 18417,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ad35a8e1-627c-427b-ab12-53893d28d165",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7e879654-e4a1-4be5-b6a9-91f54d296478",
+          "title": "Test Functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should open login application",
+              "fullTitle": "Test Functionality should open login application",
+              "timedOut": null,
+              "duration": 11357,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#txtUsername`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#txtUsername`, but never found it.\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\support\\index.js:124:6)",
+                "diff": null
+              },
+              "uuid": "6d364163-cc12-416d-8f22-194e168cd6a7",
+              "parentUUID": "7e879654-e4a1-4be5-b6a9-91f54d296478",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should open not login application",
+              "fullTitle": "Test Functionality should open not login application",
+              "timedOut": null,
+              "duration": 6740,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#txtUsername`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#txtUsername`, but never found it.\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\support\\index.js:124:6)",
+                "diff": null
+              },
+              "uuid": "75bd1aaa-f4c0-4734-9380-230a97e70555",
+              "parentUUID": "7e879654-e4a1-4be5-b6a9-91f54d296478",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "6d364163-cc12-416d-8f22-194e168cd6a7",
+            "75bd1aaa-f4c0-4734-9380-230a97e70555"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 18097,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mocha-cypress-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.3.0"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": true,
+        "reportFilename": "mocha-cypress-report",
+        "autoOpen": true,
+        "charts": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

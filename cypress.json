@@ -1,0 +1,15 @@
+{
+    "watchForFileChanges" : false,
+    "responseTimeout" : 60000,
+    "screenshotOnRunFailure" : false,
+    "video" : true,
+    "baseUrl" : "https://opensource-demo.orangehrmlive.com",
+    "reporter" : "mochawesome",
+    "reporterOptions" : {
+        "code" : false,
+        "overwrite" : true,
+        "reportFilename" : "mocha-cypress-report",
+        "autoOpen" : true,
+        "charts" : true
+    }
+}
